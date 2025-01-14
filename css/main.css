@@ -1,6 +1,8 @@
 * {
-    text-align: left;
+    text-align: center;
     box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px
 }
 
 body {
@@ -8,14 +10,33 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
+    color: #191970;
     background-color: #FFE4B5;
+}
+
+#imagefond {
+        background-img: url("https://github.com/divtec-cejef/cv-01-html-bronluc/blob/mon-cv-css/201515146-splash-peinture-acrylique-color%C3%A9e-%C3%A9claboussures-isol%C3%A9-fond-png-transparent-ai-g%C3%A9n%C3%A9rative.jpg?raw=true");
 }
 
 img {
     max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 10;
+    width: 20%;
+    float: right;
+    padding: 500;
+    background-color: #AFEEEE;
+
+}
+
+img:hover {
+    background-color: #ccff99;
+}
+
+.background {
+    background-color: #ccff99;
+    border-color: #191970;
+    border-width: medium;
+    border-style: solid;
 }
 
 a {
